@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiFi DOS Analysis</title>
+    <!-- Include CSS files -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Include jQuery and Bootstrap JavaScript files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<header class="header">
+    <div class="container mx-auto">
+        <div class="flex items-center"></div>
+        <div class="nav">
+            <div class="logo">  
+                <img src="/static/images/Tunisie-Telecom-removebg-preview.png" alt="Logo">
+            </div>
+            <ul>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo"></a></li>
+                <li><a href="#" id="reddo">Settings</a></li>
+                <li><a href="#" id="reddo">Log out</a></li>
+                <li class="profile">
+                    <img src="/static/images/admin.png" alt="Profile Image">
+                    <span class="name">admin</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div class="btn">
+    <!-- Button to analyze the network -->
+    <button id="analyze_network">Show connected IPs</button>
+    <!-- Loading spinner -->
+    <div id="loading-spinner" class="hidden">Loading...</div>
+
+    <!-- Button to refresh the page -->
+    <button onclick="refreshPage()">Traffic Analysis</button>
+
+    <div class="cnt-ips">
+        <ul id="connected-ips"></ul>
+         <!-- Loading spinner -->
+    <div id="loading-spinner" class="hidden">Loading...</div>
+    </div>
+
+  
+</div>
+
+<div class="main-content">
+    <!-- Plot for Source IPs by Hour -->
+    <div class="plot-source-ip">
+        <div class="image-container">
+            <img src="data:image/png;base64,{{ source_ip_plot_data }}" alt="Source IPs by Hour">
+        </div>
+    </div>
+
+    <!-- Two plots -->
+    <div class="two-plots" style="display: flex;">
+        <div class="plot">
+            <div class="image-container">
+                <img src="data:image/png;base64,{{ dos_attack_plot_data }}" alt="DOS Attacks Pie Chart">
+            </div>
+        </div>
+
+        <div class="plot">
+            <div class="image-container">
+                <img src="data:image/png;base64,{{ most_occuring_ips_plot_data }}" alt="Most Occurring IPs in Last Hour by Minute">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Function to analyze the network
+    document.getElementById('analyze_network').addEventListener('click', function() {
+        const loadingSpinner = document.getElementById('loading-spinner');
+        loadingSpinner.classList.remove('hidden'); // Show loading spinner
+        fetch('/analyze_network')
+            .then(response => response.json())
+            .then(data => {
+                const connectedIpsDiv = document.getElementById('connected-ips');
+                connectedIpsDiv.innerHTML = ''; // Clear previous content
+                const connectedIpsList = document.createElement('ul');
+                data.connected_ips.forEach(ip => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = ip;
+                    connectedIpsList.appendChild(listItem);
+                });
+                connectedIpsDiv.appendChild(connectedIpsList);
+                loadingSpinner.classList.add('hidden'); // Hide loading spinner
+            })
+            .catch(error => {
+                console.error('Error fetching connected IPs:', error);
+                loadingSpinner.classList.add('hidden'); // Hide loading spinner on error
+            });
+    });
+
+    // Add an event listener to the button for page reload
+    document.getElementById("reloadButton").addEventListener("click", function() {
+        // Reload the page
+        location.reload();
+    });
+
+    function refreshPage() {
+    // Reload the current page
+    location.reload();
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,207 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo {
+    display: block;
+    margin: 0px auto;
+    max-width: 100px;
+    margin-top: left;
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif; /* Added fallback font */
+    font-weight: bold; /* Added fallback font */;
+    font-size: 20px;
+    color: rgb(35, 42, 145); /* Sets the default color to red */
+    margin-right: 300px;
+}
+
+img {
+    max-width: 100%;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #f1f1f1;
+    box-shadow: 100px;
+}
+
+.profile {
+    list-style: none; /* Remove default list styling */
+    text-align: center; /* Center-align content */
+}
+
+.profile .name {
+    display: block; /* Ensure the name appears on a new line */
+    margin-top: 5px; /* Adjust top margin for spacing */
+    color: rgb(35, 42, 145); /* Sets the default color to red */
+    text-decoration: none; /* Removes underline */
+}
+
+.profile .name:hover {
+    color: white; /* Changes color to white on hover */
+    background-color: rgb(35, 42, 145); /* Background color changes to red on hover */
+}
+
+.header a.active {
+    background-color: rgb(0, 0, 225);
+    color:rgb(35, 42, 145);
+}
+
+.header .logo img {
+    max-width: 100px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav input[type="text"] {
+    padding: 0.5rem;
+    background-color: #ddd;
+    color: rgb(58, 51, 51);
+    border: none;
+    border-radius: 0.25rem;
+    text-decoration: solid;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    list-style: none;
+}
+
+.nav ul li {
+    margin-left: 1rem;
+    color: rgb(35, 42, 145);
+}
+
+.nav ul li img {
+    max-width: 40px;
+    border-radius: 50%;
+}
+
+  .plot-source-ip {
+   flex-basis: 49.5%;
+   margin-right: 8%;
+  }
+
+  .two-plots{
+    flex-basis: 49.5%;
+    grid-gap: 300px; /* Creates 10 pixels of space between grid items */
+    margin-left: 200px;
+    margin-right: 250px;
+  }
+
+  .image-container {
+    position: relative;
+    width: 100%; /* Adjust as needed */
+    height: auto; /* Adjust as needed */
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.2); /* Adjust the scale factor as needed */
+    cursor: zoom-in;
+  }
+  
+  button{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #007bff;
+    margin-left: 100px;
+    color: black;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    width: 200px;
+    height: 50px;
+    box-shadow: inset;
+  }
+
+  button:hover {
+    background-color: rgb(89, 114, 134);
+    color: white;
+  }
+
+  #reddo {
+    color: rgb(35, 42, 145) ;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+  }
+
+  #reddo:hover {
+    color: white;
+    background-color: rgb(35, 42, 145);
+    border-color: rgb(35, 42, 145);
+  }
+
+  cnt-ips {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+
+ #connected-ips {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   margin-left: 200px;
+   margin-right: 200px;
+   background-color: #f1f1f1;
+   color: black;
+   border-radius: 4px;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 1.42857143;
+   margin-top: 50px;
+   font-family: 'Times New Roman', Times, serif;
+ }
+
+.btn {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: #f1f1f1;
+  color: black;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  margin-bottom: 100px;
+
+} 

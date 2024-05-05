@@ -1,0 +1,853 @@
+2024-04-09 00:46:26,375 - Starting packet capture...
+2024-04-09 00:46:59,002 - Starting packet capture...
+2024-04-09 00:47:05,699 - 100 packets captured.
+2024-04-09 00:47:05,699 - Excessive traffic detected. Possible DoS attack.
+2024-04-09 01:10:48,299 - Starting packet capture...
+2024-04-09 01:10:58,211 - 100 packets captured.
+2024-04-09 01:10:58,211 - Excessive traffic detected. Possible DoS attack.
+2024-04-09 01:12:48,545 - Starting packet capture...
+2024-04-09 01:13:12,843 - 100 packets captured.
+2024-04-09 01:13:12,843 - Excessive traffic detected. Possible DoS attack.
+2024-04-09 01:35:13,575 - Starting packet capture...
+2024-04-09 01:39:00,910 - 0 packets captured.
+2024-04-09 01:39:00,911 - No signs of DoS attack.
+2024-04-09 01:39:08,214 - Starting packet capture...
+2024-04-09 01:39:30,207 - 100 packets captured.
+2024-04-09 01:39:30,207 - Excessive traffic detected. Possible DoS attack.
+2024-04-09 01:40:25,612 - Starting packet capture...
+2024-04-09 01:41:00,975 - 17 packets captured.
+2024-04-09 01:41:00,975 - No signs of DoS attack.
+2024-04-09 01:41:06,830 - Starting packet capture...
+2024-04-09 01:41:14,611 - 0 packets captured.
+2024-04-09 01:41:14,611 - No signs of DoS attack.
+2024-04-09 01:41:18,766 - Starting packet capture...
+2024-04-09 01:42:03,687 - 20 packets captured.
+2024-04-09 01:42:03,687 - No signs of DoS attack.
+2024-04-09 01:42:10,939 - Starting packet capture...
+2024-04-09 01:43:22,366 - 100 packets captured.
+2024-04-09 01:43:22,367 - Excessive traffic detected. Possible DoS attack.
+2024-04-09 01:48:43,963 - Starting packet capture...
+2024-04-09 01:48:48,339 - 100 packets captured.
+2024-04-09 01:48:48,339 - Excessive traffic detected. Possible DoS attack.
+2024-04-09 01:50:35,994 - Starting packet capture...
+2024-04-09 01:50:39,540 - 100 packets captured.
+2024-04-09 01:50:39,541 - Excessive traffic detected. Possible DoS attack.
+2024-04-09 01:51:48,647 - Starting packet capture...
+2024-04-09 01:51:59,147 - 50 packets captured.
+2024-04-09 01:51:59,147 - Excessive traffic detected. Possible DoS attack.
+2024-04-09 01:52:41,439 - Starting packet capture...
+2024-04-09 01:53:27,939 - 3 packets captured.
+2024-04-09 01:53:27,939 - No signs of DoS attack.
+2024-04-09 02:01:56,293 - Starting packet capture...
+2024-04-09 02:01:57,258 - 50 packets captured.
+2024-04-09 02:01:57,259 - Excessive traffic detected. Possible DoS attack.
+2024-04-09 02:02:30,072 - Starting packet capture...
+2024-04-09 02:02:35,095 - 100 packets captured.
+2024-04-09 02:02:35,095 - Excessive traffic detected. Possible DoS attack.
+2024-04-09 02:05:09,194 - Starting packet capture...
+2024-04-09 02:05:18,863 - 100 packets captured.
+2024-04-09 02:05:18,863 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 10:45:26,943 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-22 10:45:26,944 - [33mPress CTRL+C to quit[0m
+2024-04-22 10:45:26,945 -  * Restarting with stat
+2024-04-22 10:45:28,744 -  * Debugger is active!
+2024-04-22 10:45:28,744 -  * Debugger PIN: 990-059-922
+2024-04-22 10:45:30,854 - 127.0.0.1 - - [22/Apr/2024 10:45:30] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+2024-04-22 10:45:31,729 - 127.0.0.1 - - [22/Apr/2024 10:45:31] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 10:46:38,788 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-22 10:46:38,789 - [33mPress CTRL+C to quit[0m
+2024-04-22 10:46:38,790 -  * Restarting with stat
+2024-04-22 10:46:40,596 -  * Debugger is active!
+2024-04-22 10:46:40,597 -  * Debugger PIN: 990-059-922
+2024-04-22 10:46:44,101 - 127.0.0.1 - - [22/Apr/2024 10:46:44] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+2024-04-22 10:46:45,286 - 127.0.0.1 - - [22/Apr/2024 10:46:45] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 10:46:47,433 - 127.0.0.1 - - [22/Apr/2024 10:46:47] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+2024-04-22 10:46:48,333 - 127.0.0.1 - - [22/Apr/2024 10:46:48] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 10:46:50,310 - 127.0.0.1 - - [22/Apr/2024 10:46:50] "GET / HTTP/1.1" 200 -
+2024-04-22 10:46:51,138 - 127.0.0.1 - - [22/Apr/2024 10:46:51] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 10:46:51,911 - 127.0.0.1 - - [22/Apr/2024 10:46:51] "GET / HTTP/1.1" 200 -
+2024-04-22 10:46:52,664 - 127.0.0.1 - - [22/Apr/2024 10:46:52] "GET / HTTP/1.1" 200 -
+2024-04-22 10:46:52,794 - 127.0.0.1 - - [22/Apr/2024 10:46:52] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 10:46:53,781 - 127.0.0.1 - - [22/Apr/2024 10:46:53] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 10:46:54,288 - 127.0.0.1 - - [22/Apr/2024 10:46:54] "GET / HTTP/1.1" 200 -
+2024-04-22 10:46:55,126 - 127.0.0.1 - - [22/Apr/2024 10:46:55] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 10:47:12,431 - Starting packet capture...
+2024-04-22 10:47:48,304 - 100 packets captured.
+2024-04-22 10:47:48,304 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 10:47:48,310 - 127.0.0.1 - - [22/Apr/2024 10:47:48] "POST /detect HTTP/1.1" 200 -
+2024-04-22 10:47:49,578 - 127.0.0.1 - - [22/Apr/2024 10:47:49] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 10:48:41,264 - Starting packet capture...
+2024-04-22 10:49:53,808 - 100 packets captured.
+2024-04-22 10:49:53,808 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 10:50:01,938 - Starting packet capture...
+2024-04-22 10:50:10,664 - Starting packet capture...
+2024-04-22 10:50:49,905 - Starting packet capture...
+2024-04-22 10:50:55,167 - Starting packet capture...
+2024-04-22 10:51:16,808 - 100 packets captured.
+2024-04-22 10:51:16,808 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 10:51:16,811 - 127.0.0.1 - - [22/Apr/2024 10:51:16] "POST /detect HTTP/1.1" 200 -
+2024-04-22 10:51:17,616 - 100 packets captured.
+2024-04-22 10:51:17,616 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 10:51:17,618 - 127.0.0.1 - - [22/Apr/2024 10:51:17] "POST /detect HTTP/1.1" 200 -
+2024-04-22 10:51:26,412 - 100 packets captured.
+2024-04-22 10:51:26,412 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 10:51:26,415 - 127.0.0.1 - - [22/Apr/2024 10:51:26] "POST /detect HTTP/1.1" 200 -
+2024-04-22 10:51:27,517 - 127.0.0.1 - - [22/Apr/2024 10:51:27] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 10:51:28,860 - 100 packets captured.
+2024-04-22 10:51:28,860 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 11:38:01,955 -  * Detected change in '/home/root_/wifi_dos_detector/app.py', reloading
+2024-04-22 11:38:03,153 -  * Restarting with stat
+2024-04-22 11:38:03,566 -  * Debugger is active!
+2024-04-22 11:38:03,568 -  * Debugger PIN: 990-059-922
+2024-04-22 11:38:40,250 - 127.0.0.1 - - [22/Apr/2024 11:38:40] "GET / HTTP/1.1" 200 -
+2024-04-22 11:38:41,639 - 127.0.0.1 - - [22/Apr/2024 11:38:41] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 11:38:44,103 - 127.0.0.1 - - [22/Apr/2024 11:38:44] "GET / HTTP/1.1" 200 -
+2024-04-22 11:38:44,944 - 127.0.0.1 - - [22/Apr/2024 11:38:44] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 11:38:45,904 - Starting packet capture...
+2024-04-22 11:38:45,915 - 127.0.0.1 - - [22/Apr/2024 11:38:45] "[35m[1mPOST /detect HTTP/1.1[0m" 500 -
+2024-04-22 11:38:45,979 - 127.0.0.1 - - [22/Apr/2024 11:38:45] "[36mGET /detect?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-22 11:38:45,980 - 127.0.0.1 - - [22/Apr/2024 11:38:45] "[36mGET /detect?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-22 11:38:46,234 - 127.0.0.1 - - [22/Apr/2024 11:38:46] "[36mGET /detect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-22 11:38:46,277 - 127.0.0.1 - - [22/Apr/2024 11:38:46] "[36mGET /detect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-22 11:38:46,798 - 127.0.0.1 - - [22/Apr/2024 11:38:46] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 11:39:20,337 - Starting packet capture...
+2024-04-22 11:39:20,347 - 127.0.0.1 - - [22/Apr/2024 11:39:20] "[35m[1mPOST /detect HTTP/1.1[0m" 500 -
+2024-04-22 11:39:20,389 - 127.0.0.1 - - [22/Apr/2024 11:39:20] "[36mGET /detect?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-22 11:39:20,392 - 127.0.0.1 - - [22/Apr/2024 11:39:20] "[36mGET /detect?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-22 11:39:20,692 - 127.0.0.1 - - [22/Apr/2024 11:39:20] "[36mGET /detect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-22 11:39:20,729 - 127.0.0.1 - - [22/Apr/2024 11:39:20] "[36mGET /detect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-22 11:39:21,301 - 127.0.0.1 - - [22/Apr/2024 11:39:21] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 11:39:23,160 - 127.0.0.1 - - [22/Apr/2024 11:39:23] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+2024-04-22 11:39:24,030 - 127.0.0.1 - - [22/Apr/2024 11:39:24] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 11:39:25,434 - 127.0.0.1 - - [22/Apr/2024 11:39:25] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+2024-04-22 11:39:26,297 - 127.0.0.1 - - [22/Apr/2024 11:39:26] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 11:39:28,991 - Starting packet capture...
+2024-04-22 11:39:28,997 - 127.0.0.1 - - [22/Apr/2024 11:39:28] "[35m[1mPOST /detect HTTP/1.1[0m" 500 -
+2024-04-22 11:39:29,044 - 127.0.0.1 - - [22/Apr/2024 11:39:29] "[36mGET /detect?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-22 11:39:29,046 - 127.0.0.1 - - [22/Apr/2024 11:39:29] "[36mGET /detect?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-22 11:39:29,316 - 127.0.0.1 - - [22/Apr/2024 11:39:29] "[36mGET /detect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-22 11:39:29,348 - 127.0.0.1 - - [22/Apr/2024 11:39:29] "[36mGET /detect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-22 11:39:29,882 - 127.0.0.1 - - [22/Apr/2024 11:39:29] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 11:40:59,486 - 127.0.0.1 - - [22/Apr/2024 11:40:59] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+2024-04-22 11:41:00,390 - 127.0.0.1 - - [22/Apr/2024 11:41:00] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 11:41:07,439 - 127.0.0.1 - - [22/Apr/2024 11:41:07] "GET / HTTP/1.1" 200 -
+2024-04-22 11:41:08,326 - 127.0.0.1 - - [22/Apr/2024 11:41:08] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 11:41:09,316 - 127.0.0.1 - - [22/Apr/2024 11:41:09] "GET / HTTP/1.1" 200 -
+2024-04-22 11:41:10,180 - 127.0.0.1 - - [22/Apr/2024 11:41:10] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 11:41:11,526 - 127.0.0.1 - - [22/Apr/2024 11:41:11] "GET / HTTP/1.1" 200 -
+2024-04-22 11:41:12,421 - 127.0.0.1 - - [22/Apr/2024 11:41:12] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 11:41:12,845 - Starting packet capture...
+2024-04-22 11:41:12,852 - 127.0.0.1 - - [22/Apr/2024 11:41:12] "[35m[1mPOST /detect HTTP/1.1[0m" 500 -
+2024-04-22 11:41:12,893 - 127.0.0.1 - - [22/Apr/2024 11:41:12] "[36mGET /detect?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-22 11:41:12,894 - 127.0.0.1 - - [22/Apr/2024 11:41:12] "[36mGET /detect?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-22 11:41:13,159 - 127.0.0.1 - - [22/Apr/2024 11:41:13] "[36mGET /detect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-22 11:41:13,189 - 127.0.0.1 - - [22/Apr/2024 11:41:13] "[36mGET /detect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-22 11:41:13,728 - 127.0.0.1 - - [22/Apr/2024 11:41:13] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 11:41:48,288 -  * Detected change in '/home/root_/wifi_dos_detector/app.py', reloading
+2024-04-22 11:41:48,344 -  * Restarting with stat
+2024-04-22 11:41:48,607 -  * Debugger is active!
+2024-04-22 11:41:48,608 -  * Debugger PIN: 990-059-922
+2024-04-22 11:41:52,688 - 127.0.0.1 - - [22/Apr/2024 11:41:52] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+2024-04-22 11:41:53,680 - 127.0.0.1 - - [22/Apr/2024 11:41:53] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 11:41:56,175 - Starting packet capture...
+2024-04-22 11:41:56,187 - 127.0.0.1 - - [22/Apr/2024 11:41:56] "[35m[1mPOST /detect HTTP/1.1[0m" 500 -
+2024-04-22 11:41:56,242 - 127.0.0.1 - - [22/Apr/2024 11:41:56] "[36mGET /detect?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-22 11:41:56,242 - 127.0.0.1 - - [22/Apr/2024 11:41:56] "[36mGET /detect?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-22 11:41:56,505 - 127.0.0.1 - - [22/Apr/2024 11:41:56] "[36mGET /detect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-22 11:41:56,542 - 127.0.0.1 - - [22/Apr/2024 11:41:56] "[36mGET /detect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-22 11:41:57,093 - 127.0.0.1 - - [22/Apr/2024 11:41:57] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 11:42:12,693 -  * Detected change in '/home/root_/wifi_dos_detector/app.py', reloading
+2024-04-22 11:42:12,813 -  * Restarting with stat
+2024-04-22 11:42:14,957 -  * Debugger is active!
+2024-04-22 11:42:14,958 -  * Debugger PIN: 990-059-922
+2024-04-22 11:42:22,694 - 127.0.0.1 - - [22/Apr/2024 11:42:22] "GET / HTTP/1.1" 200 -
+2024-04-22 11:42:23,706 - 127.0.0.1 - - [22/Apr/2024 11:42:23] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 11:42:24,049 - 127.0.0.1 - - [22/Apr/2024 11:42:24] "GET / HTTP/1.1" 200 -
+2024-04-22 11:42:24,890 - 127.0.0.1 - - [22/Apr/2024 11:42:24] "GET / HTTP/1.1" 200 -
+2024-04-22 11:42:24,984 - 127.0.0.1 - - [22/Apr/2024 11:42:24] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 11:42:25,978 - 127.0.0.1 - - [22/Apr/2024 11:42:25] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 11:42:27,840 - Starting packet capture...
+2024-04-22 11:43:14,308 - 100 packets captured.
+2024-04-22 11:43:14,308 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 11:43:14,316 - 127.0.0.1 - - [22/Apr/2024 11:43:14] "POST /detect HTTP/1.1" 200 -
+2024-04-22 11:43:15,254 - 127.0.0.1 - - [22/Apr/2024 11:43:15] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 11:44:14,027 - Starting packet capture...
+2024-04-22 11:44:44,064 - 100 packets captured.
+2024-04-22 11:44:44,064 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 11:44:44,068 - 127.0.0.1 - - [22/Apr/2024 11:44:44] "POST /detect HTTP/1.1" 200 -
+2024-04-22 11:44:45,423 - 127.0.0.1 - - [22/Apr/2024 11:44:45] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 11:45:03,014 - Starting packet capture...
+2024-04-22 11:45:06,892 - 10 packets captured.
+2024-04-22 11:45:06,892 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 11:45:06,893 - 127.0.0.1 - - [22/Apr/2024 11:45:06] "POST /detect HTTP/1.1" 200 -
+2024-04-22 11:45:07,773 - 127.0.0.1 - - [22/Apr/2024 11:45:07] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 11:45:28,618 - Starting packet capture...
+2024-04-22 11:45:50,584 - 10 packets captured.
+2024-04-22 11:45:50,584 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 11:45:50,585 - 127.0.0.1 - - [22/Apr/2024 11:45:50] "POST /detect HTTP/1.1" 200 -
+2024-04-22 11:45:51,678 - 127.0.0.1 - - [22/Apr/2024 11:45:51] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 11:46:13,821 - Starting packet capture...
+2024-04-22 11:46:15,960 - 10 packets captured.
+2024-04-22 11:46:15,960 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 11:46:15,961 - 127.0.0.1 - - [22/Apr/2024 11:46:15] "POST /detect HTTP/1.1" 200 -
+2024-04-22 11:46:16,849 - 127.0.0.1 - - [22/Apr/2024 11:46:16] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 12:00:06,186 - 127.0.0.1 - - [22/Apr/2024 12:00:06] "GET / HTTP/1.1" 200 -
+2024-04-22 12:00:07,445 - 127.0.0.1 - - [22/Apr/2024 12:00:07] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 12:00:16,833 - Starting packet capture...
+2024-04-22 12:00:25,160 - 5 packets captured.
+2024-04-22 12:00:25,160 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 12:00:25,161 - 127.0.0.1 - - [22/Apr/2024 12:00:25] "POST /detect HTTP/1.1" 200 -
+2024-04-22 12:00:26,017 - 127.0.0.1 - - [22/Apr/2024 12:00:26] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 12:07:33,553 -  * Detected change in '/home/root_/wifi_dos_detector/app.py', reloading
+2024-04-22 12:07:33,833 -  * Restarting with stat
+2024-04-22 12:07:42,271 -  * Restarting with stat
+2024-04-22 12:08:53,810 -  * Restarting with stat
+2024-04-22 12:08:55,729 -  * Debugger is active!
+2024-04-22 12:08:55,730 -  * Debugger PIN: 990-059-922
+2024-04-22 12:08:57,690 - 127.0.0.1 - - [22/Apr/2024 12:08:57] "GET / HTTP/1.1" 200 -
+2024-04-22 12:08:58,573 - 127.0.0.1 - - [22/Apr/2024 12:08:58] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 12:08:59,605 - 127.0.0.1 - - [22/Apr/2024 12:08:59] "GET / HTTP/1.1" 200 -
+2024-04-22 12:09:00,518 - 127.0.0.1 - - [22/Apr/2024 12:09:00] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 12:09:02,133 - Starting packet capture...
+2024-04-22 12:09:23,340 - 10 packets captured.
+2024-04-22 12:09:23,340 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 12:09:23,345 - 127.0.0.1 - - [22/Apr/2024 12:09:23] "POST /detect HTTP/1.1" 200 -
+2024-04-22 12:09:24,236 - 127.0.0.1 - - [22/Apr/2024 12:09:24] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 12:11:53,382 - 127.0.0.1 - - [22/Apr/2024 12:11:53] "GET / HTTP/1.1" 200 -
+2024-04-22 12:11:54,620 - 127.0.0.1 - - [22/Apr/2024 12:11:54] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 12:36:49,663 - 127.0.0.1 - - [22/Apr/2024 12:36:49] "GET / HTTP/1.1" 200 -
+2024-04-22 12:36:50,807 - 127.0.0.1 - - [22/Apr/2024 12:36:50] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 12:37:53,266 - 127.0.0.1 - - [22/Apr/2024 12:37:53] "GET / HTTP/1.1" 200 -
+2024-04-22 12:37:54,166 - 127.0.0.1 - - [22/Apr/2024 12:37:54] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 12:37:56,098 - Starting packet capture...
+2024-04-22 12:38:07,656 - 100 packets captured.
+2024-04-22 12:38:07,656 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 12:38:07,659 - 127.0.0.1 - - [22/Apr/2024 12:38:07] "POST /detect HTTP/1.1" 200 -
+2024-04-22 12:38:08,483 - 127.0.0.1 - - [22/Apr/2024 12:38:08] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 12:38:50,367 -  * Detected change in '/home/root_/wifi_dos_detector/app.py', reloading
+2024-04-22 12:38:50,629 -  * Restarting with stat
+2024-04-22 12:43:25,868 -  * Restarting with stat
+2024-04-22 12:59:41,291 -  * Restarting with stat
+2024-04-22 12:59:43,198 -  * Debugger is active!
+2024-04-22 12:59:43,198 -  * Debugger PIN: 990-059-922
+2024-04-22 12:59:45,453 - 127.0.0.1 - - [22/Apr/2024 12:59:45] "GET / HTTP/1.1" 200 -
+2024-04-22 12:59:46,339 - 127.0.0.1 - - [22/Apr/2024 12:59:46] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:00:13,347 - 127.0.0.1 - - [22/Apr/2024 13:00:13] "GET / HTTP/1.1" 200 -
+2024-04-22 13:00:14,194 - 127.0.0.1 - - [22/Apr/2024 13:00:14] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:00:15,834 - Starting packet capture...
+2024-04-22 13:00:39,665 - 100 packets captured.
+2024-04-22 13:00:39,665 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 13:00:39,678 - 127.0.0.1 - - [22/Apr/2024 13:00:39] "POST /detect HTTP/1.1" 200 -
+2024-04-22 13:07:29,974 -  * Detected change in '/home/root_/wifi_dos_detector/app.py', reloading
+2024-04-22 13:07:30,229 -  * Restarting with stat
+2024-04-22 13:17:15,547 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-22 13:17:15,547 - [33mPress CTRL+C to quit[0m
+2024-04-22 13:17:15,549 -  * Restarting with stat
+2024-04-22 13:17:17,176 -  * Debugger is active!
+2024-04-22 13:17:17,177 -  * Debugger PIN: 990-059-922
+2024-04-22 13:17:20,637 - 127.0.0.1 - - [22/Apr/2024 13:17:20] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+2024-04-22 13:17:22,311 - 127.0.0.1 - - [22/Apr/2024 13:17:22] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:17:25,188 - 127.0.0.1 - - [22/Apr/2024 13:17:25] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+2024-04-22 13:17:26,000 - 127.0.0.1 - - [22/Apr/2024 13:17:25] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:17:47,389 - 127.0.0.1 - - [22/Apr/2024 13:17:47] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+2024-04-22 13:17:48,211 - 127.0.0.1 - - [22/Apr/2024 13:17:48] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:18:31,960 - 127.0.0.1 - - [22/Apr/2024 13:18:31] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:18:33,934 - 127.0.0.1 - - [22/Apr/2024 13:18:33] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:18:35,175 - 127.0.0.1 - - [22/Apr/2024 13:18:35] "GET / HTTP/1.1" 200 -
+2024-04-22 13:18:35,992 - 127.0.0.1 - - [22/Apr/2024 13:18:35] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:18:36,392 - 127.0.0.1 - - [22/Apr/2024 13:18:36] "GET / HTTP/1.1" 200 -
+2024-04-22 13:18:37,286 - 127.0.0.1 - - [22/Apr/2024 13:18:37] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:18:40,315 - Starting packet capture...
+2024-04-22 13:19:01,936 - 10 packets captured.
+2024-04-22 13:19:01,936 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 13:19:01,939 - 127.0.0.1 - - [22/Apr/2024 13:19:01] "POST /detect HTTP/1.1" 200 -
+2024-04-22 13:19:03,049 - 127.0.0.1 - - [22/Apr/2024 13:19:03] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:19:17,417 - Starting packet capture...
+2024-04-22 13:19:19,674 - Starting packet capture...
+2024-04-22 13:19:22,544 - 10 packets captured.
+2024-04-22 13:19:22,544 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 13:19:22,546 - 127.0.0.1 - - [22/Apr/2024 13:19:22] "POST /detect HTTP/1.1" 200 -
+2024-04-22 13:19:23,590 - 127.0.0.1 - - [22/Apr/2024 13:19:23] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:19:29,935 - Starting packet capture...
+2024-04-22 13:19:36,044 - 10 packets captured.
+2024-04-22 13:19:36,044 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 13:19:36,045 - 127.0.0.1 - - [22/Apr/2024 13:19:36] "POST /detect HTTP/1.1" 200 -
+2024-04-22 13:19:36,868 - 127.0.0.1 - - [22/Apr/2024 13:19:36] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:19:49,236 - 100 packets captured.
+2024-04-22 13:19:49,236 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 13:19:49,246 - 127.0.0.1 - - [22/Apr/2024 13:19:49] "POST /detect HTTP/1.1" 200 -
+2024-04-22 13:19:52,770 -  * Detected change in '/home/root_/wifi_dos_detector/app.py', reloading
+2024-04-22 13:19:53,019 -  * Restarting with stat
+2024-04-22 13:19:55,105 -  * Debugger is active!
+2024-04-22 13:19:55,106 -  * Debugger PIN: 990-059-922
+2024-04-22 13:20:03,858 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-22 13:20:03,858 - [33mPress CTRL+C to quit[0m
+2024-04-22 13:20:03,860 -  * Restarting with stat
+2024-04-22 13:20:05,453 -  * Debugger is active!
+2024-04-22 13:20:05,453 -  * Debugger PIN: 990-059-922
+2024-04-22 13:20:20,715 - 127.0.0.1 - - [22/Apr/2024 13:20:20] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+2024-04-22 13:20:21,656 - 127.0.0.1 - - [22/Apr/2024 13:20:21] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:20:22,939 - 127.0.0.1 - - [22/Apr/2024 13:20:22] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+2024-04-22 13:20:23,778 - 127.0.0.1 - - [22/Apr/2024 13:20:23] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:20:28,640 - 127.0.0.1 - - [22/Apr/2024 13:20:28] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+2024-04-22 13:20:29,470 - 127.0.0.1 - - [22/Apr/2024 13:20:29] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:20:31,567 - 127.0.0.1 - - [22/Apr/2024 13:20:31] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:20:33,860 - Starting packet capture...
+2024-04-22 13:20:39,010 - 127.0.0.1 - - [22/Apr/2024 13:20:39] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+2024-04-22 13:20:39,835 - 127.0.0.1 - - [22/Apr/2024 13:20:39] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:20:41,843 - 127.0.0.1 - - [22/Apr/2024 13:20:41] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:20:56,228 - 10 packets captured.
+2024-04-22 13:20:56,228 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 13:20:56,233 - 127.0.0.1 - - [22/Apr/2024 13:20:56] "POST /detect HTTP/1.1" 200 -
+2024-04-22 13:21:24,690 - 127.0.0.1 - - [22/Apr/2024 13:21:24] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+2024-04-22 13:21:25,562 - 127.0.0.1 - - [22/Apr/2024 13:21:25] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:21:26,981 - 127.0.0.1 - - [22/Apr/2024 13:21:26] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+2024-04-22 13:21:27,805 - 127.0.0.1 - - [22/Apr/2024 13:21:27] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:21:31,204 - Starting packet capture...
+2024-04-22 13:21:36,064 - 10 packets captured.
+2024-04-22 13:21:36,064 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 13:21:36,065 - 127.0.0.1 - - [22/Apr/2024 13:21:36] "POST /detect HTTP/1.1" 200 -
+2024-04-22 13:21:36,905 - 127.0.0.1 - - [22/Apr/2024 13:21:36] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:21:57,418 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-22 13:21:57,419 - [33mPress CTRL+C to quit[0m
+2024-04-22 13:21:57,420 -  * Restarting with stat
+2024-04-22 13:21:59,114 -  * Debugger is active!
+2024-04-22 13:21:59,115 -  * Debugger PIN: 990-059-922
+2024-04-22 13:22:00,739 - 127.0.0.1 - - [22/Apr/2024 13:22:00] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+2024-04-22 13:22:01,628 - 127.0.0.1 - - [22/Apr/2024 13:22:01] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:22:03,244 - 127.0.0.1 - - [22/Apr/2024 13:22:03] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+2024-04-22 13:22:04,082 - 127.0.0.1 - - [22/Apr/2024 13:22:04] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:23:11,414 -  * Detected change in '/home/root_/wifi_dos_detector/app.py', reloading
+2024-04-22 13:23:11,680 -  * Restarting with stat
+2024-04-22 13:23:13,661 -  * Debugger is active!
+2024-04-22 13:23:13,662 -  * Debugger PIN: 990-059-922
+2024-04-22 13:25:13,040 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-22 13:25:13,041 - [33mPress CTRL+C to quit[0m
+2024-04-22 13:25:13,042 -  * Restarting with stat
+2024-04-22 13:25:14,655 -  * Debugger is active!
+2024-04-22 13:25:14,655 -  * Debugger PIN: 990-059-922
+2024-04-22 13:25:20,241 - 127.0.0.1 - - [22/Apr/2024 13:25:20] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+2024-04-22 13:25:21,117 - 127.0.0.1 - - [22/Apr/2024 13:25:21] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:25:23,450 - 127.0.0.1 - - [22/Apr/2024 13:25:23] "GET / HTTP/1.1" 200 -
+2024-04-22 13:25:24,326 - 127.0.0.1 - - [22/Apr/2024 13:25:24] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:25:34,858 - Starting WiFi DoS detection...
+2024-04-22 13:25:34,858 - WiFi DoS detection completed.
+2024-04-22 13:25:34,865 - 127.0.0.1 - - [22/Apr/2024 13:25:34] "POST /detect HTTP/1.1" 200 -
+2024-04-22 13:25:35,686 - 127.0.0.1 - - [22/Apr/2024 13:25:35] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:25:48,568 - Starting WiFi DoS detection...
+2024-04-22 13:25:48,568 - WiFi DoS detection completed.
+2024-04-22 13:25:48,569 - 127.0.0.1 - - [22/Apr/2024 13:25:48] "POST /detect HTTP/1.1" 200 -
+2024-04-22 13:25:49,414 - 127.0.0.1 - - [22/Apr/2024 13:25:49] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:26:15,888 -  * Detected change in '/home/root_/wifi_dos_detector/app.py', reloading
+2024-04-22 13:26:16,162 -  * Restarting with stat
+2024-04-22 13:26:18,183 -  * Debugger is active!
+2024-04-22 13:26:18,183 -  * Debugger PIN: 990-059-922
+2024-04-22 13:28:52,642 - 127.0.0.1 - - [22/Apr/2024 13:28:52] "GET / HTTP/1.1" 200 -
+2024-04-22 13:28:53,782 - 127.0.0.1 - - [22/Apr/2024 13:28:53] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:28:56,435 - Starting packet capture...
+2024-04-22 13:29:26,836 - Starting packet capture...
+2024-04-22 13:29:30,058 - Starting packet capture...
+2024-04-22 13:29:35,104 - 10 packets captured.
+2024-04-22 13:29:35,104 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 13:29:35,121 - 127.0.0.1 - - [22/Apr/2024 13:29:35] "[35m[1mPOST /detect HTTP/1.1[0m" 500 -
+2024-04-22 13:29:35,820 - 10 packets captured.
+2024-04-22 13:29:35,820 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 13:29:35,828 - 10 packets captured.
+2024-04-22 13:29:35,828 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 13:29:35,830 - 127.0.0.1 - - [22/Apr/2024 13:29:35] "[35m[1mPOST /detect HTTP/1.1[0m" 500 -
+2024-04-22 13:29:35,840 - 127.0.0.1 - - [22/Apr/2024 13:29:35] "[35m[1mPOST /detect HTTP/1.1[0m" 500 -
+2024-04-22 13:29:35,895 - 127.0.0.1 - - [22/Apr/2024 13:29:35] "[36mGET /detect?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-04-22 13:29:35,896 - 127.0.0.1 - - [22/Apr/2024 13:29:35] "[36mGET /detect?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-04-22 13:29:36,214 - 127.0.0.1 - - [22/Apr/2024 13:29:36] "[36mGET /detect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-22 13:29:36,286 - 127.0.0.1 - - [22/Apr/2024 13:29:36] "[36mGET /detect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-04-22 13:29:36,798 - 127.0.0.1 - - [22/Apr/2024 13:29:36] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:30:34,796 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-22 13:30:34,796 - [33mPress CTRL+C to quit[0m
+2024-04-22 13:30:34,799 -  * Restarting with stat
+2024-04-22 13:30:36,540 -  * Debugger is active!
+2024-04-22 13:30:36,541 -  * Debugger PIN: 990-059-922
+2024-04-22 13:30:40,475 - 127.0.0.1 - - [22/Apr/2024 13:30:40] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+2024-04-22 13:30:41,438 - 127.0.0.1 - - [22/Apr/2024 13:30:41] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:31:10,319 - 127.0.0.1 - - [22/Apr/2024 13:31:10] "GET / HTTP/1.1" 200 -
+2024-04-22 13:31:12,016 - 127.0.0.1 - - [22/Apr/2024 13:31:12] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:31:17,908 - Starting packet capture...
+2024-04-22 13:31:18,444 - 10 packets captured.
+2024-04-22 13:31:18,444 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 13:31:18,449 - 127.0.0.1 - - [22/Apr/2024 13:31:18] "POST /detect HTTP/1.1" 200 -
+2024-04-22 13:31:19,292 - 127.0.0.1 - - [22/Apr/2024 13:31:19] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:31:54,955 - Starting packet capture...
+2024-04-22 13:32:14,648 - 10 packets captured.
+2024-04-22 13:32:14,648 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 13:32:14,652 - 127.0.0.1 - - [22/Apr/2024 13:32:14] "POST /detect HTTP/1.1" 200 -
+2024-04-22 13:32:15,519 - 127.0.0.1 - - [22/Apr/2024 13:32:15] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:35:45,715 -  * Detected change in '/home/root_/wifi_dos_detector/ARP-poisoning-detector.py', reloading
+2024-04-22 13:35:45,973 -  * Restarting with stat
+2024-04-22 13:35:47,679 -  * Debugger is active!
+2024-04-22 13:35:47,680 -  * Debugger PIN: 990-059-922
+2024-04-22 13:41:23,184 - 127.0.0.1 - - [22/Apr/2024 13:41:23] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+2024-04-22 13:41:24,380 - 127.0.0.1 - - [22/Apr/2024 13:41:24] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:41:26,625 - 127.0.0.1 - - [22/Apr/2024 13:41:26] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:41:28,562 - Starting packet capture...
+2024-04-22 13:41:30,668 - 10 packets captured.
+2024-04-22 13:41:30,668 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 13:41:30,675 - 127.0.0.1 - - [22/Apr/2024 13:41:30] "POST /detect HTTP/1.1" 200 -
+2024-04-22 13:41:31,478 - 127.0.0.1 - - [22/Apr/2024 13:41:31] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:47:06,752 - 127.0.0.1 - - [22/Apr/2024 13:47:06] "GET / HTTP/1.1" 200 -
+2024-04-22 13:47:07,654 - 127.0.0.1 - - [22/Apr/2024 13:47:07] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:55:43,427 - 127.0.0.1 - - [22/Apr/2024 13:55:43] "GET / HTTP/1.1" 200 -
+2024-04-22 13:55:43,474 - 127.0.0.1 - - [22/Apr/2024 13:55:43] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 13:55:44,571 - 127.0.0.1 - - [22/Apr/2024 13:55:44] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:55:46,217 - 127.0.0.1 - - [22/Apr/2024 13:55:46] "GET / HTTP/1.1" 200 -
+2024-04-22 13:55:46,255 - 127.0.0.1 - - [22/Apr/2024 13:55:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-22 13:55:47,096 - 127.0.0.1 - - [22/Apr/2024 13:55:47] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:56:04,357 - 127.0.0.1 - - [22/Apr/2024 13:56:04] "GET / HTTP/1.1" 200 -
+2024-04-22 13:56:04,395 - 127.0.0.1 - - [22/Apr/2024 13:56:04] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 13:56:05,236 - 127.0.0.1 - - [22/Apr/2024 13:56:05] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 13:58:00,023 - 127.0.0.1 - - [22/Apr/2024 13:58:00] "GET / HTTP/1.1" 200 -
+2024-04-22 13:58:00,063 - 127.0.0.1 - - [22/Apr/2024 13:58:00] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 13:58:00,990 - 127.0.0.1 - - [22/Apr/2024 13:58:00] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:01:17,962 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-22 18:01:17,963 - [33mPress CTRL+C to quit[0m
+2024-04-22 18:01:17,965 -  * Restarting with stat
+2024-04-22 18:01:19,773 -  * Debugger is active!
+2024-04-22 18:01:19,937 -  * Debugger PIN: 829-442-006
+2024-04-22 18:01:21,530 - 127.0.0.1 - - [22/Apr/2024 18:01:21] "GET / HTTP/1.1" 200 -
+2024-04-22 18:01:21,626 - 127.0.0.1 - - [22/Apr/2024 18:01:21] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 18:01:22,283 - 127.0.0.1 - - [22/Apr/2024 18:01:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-04-22 18:01:22,907 - 127.0.0.1 - - [22/Apr/2024 18:01:22] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:01:25,958 - 127.0.0.1 - - [22/Apr/2024 18:01:25] "GET / HTTP/1.1" 200 -
+2024-04-22 18:01:25,995 - 127.0.0.1 - - [22/Apr/2024 18:01:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-22 18:01:26,883 - 127.0.0.1 - - [22/Apr/2024 18:01:26] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:02:22,465 - Starting packet capture...
+2024-04-22 18:02:40,076 - 100 packets captured.
+2024-04-22 18:02:40,077 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 18:02:40,084 - 127.0.0.1 - - [22/Apr/2024 18:02:40] "POST /detect HTTP/1.1" 200 -
+2024-04-22 18:02:57,884 - 127.0.0.1 - - [22/Apr/2024 18:02:57] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:05:01,701 - 127.0.0.1 - - [22/Apr/2024 18:05:01] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:10:01,404 - Starting packet capture...
+2024-04-22 18:10:08,704 - 100 packets captured.
+2024-04-22 18:10:08,704 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 18:10:08,707 - 127.0.0.1 - - [22/Apr/2024 18:10:08] "POST /detect HTTP/1.1" 200 -
+2024-04-22 18:10:09,969 - 127.0.0.1 - - [22/Apr/2024 18:10:09] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:11:09,878 - 127.0.0.1 - - [22/Apr/2024 18:11:09] "GET / HTTP/1.1" 200 -
+2024-04-22 18:11:09,910 - 127.0.0.1 - - [22/Apr/2024 18:11:09] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 18:11:10,855 - 127.0.0.1 - - [22/Apr/2024 18:11:10] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:11:42,061 - 127.0.0.1 - - [22/Apr/2024 18:11:42] "GET / HTTP/1.1" 200 -
+2024-04-22 18:11:42,096 - 127.0.0.1 - - [22/Apr/2024 18:11:42] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 18:11:43,081 - 127.0.0.1 - - [22/Apr/2024 18:11:43] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:11:44,178 - 127.0.0.1 - - [22/Apr/2024 18:11:44] "GET / HTTP/1.1" 200 -
+2024-04-22 18:11:44,215 - 127.0.0.1 - - [22/Apr/2024 18:11:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-22 18:11:45,044 - 127.0.0.1 - - [22/Apr/2024 18:11:45] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:11:45,453 - 127.0.0.1 - - [22/Apr/2024 18:11:45] "GET / HTTP/1.1" 200 -
+2024-04-22 18:11:45,487 - 127.0.0.1 - - [22/Apr/2024 18:11:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-22 18:11:46,479 - 127.0.0.1 - - [22/Apr/2024 18:11:46] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:11:46,923 - Starting packet capture...
+2024-04-22 18:11:58,762 - Starting packet capture...
+2024-04-22 18:12:02,456 - Starting packet capture...
+2024-04-22 18:12:04,430 - Starting packet capture...
+2024-04-22 18:12:25,472 - 10 packets captured.
+2024-04-22 18:12:25,472 - 10 packets captured.
+2024-04-22 18:12:25,472 - 10 packets captured.
+2024-04-22 18:12:25,472 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 18:12:25,473 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 18:12:25,473 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 18:12:25,474 - 127.0.0.1 - - [22/Apr/2024 18:12:25] "POST /detect HTTP/1.1" 200 -
+2024-04-22 18:12:25,474 - 127.0.0.1 - - [22/Apr/2024 18:12:25] "POST /detect HTTP/1.1" 200 -
+2024-04-22 18:12:25,475 - 127.0.0.1 - - [22/Apr/2024 18:12:25] "POST /detect HTTP/1.1" 200 -
+2024-04-22 18:12:26,248 - 100 packets captured.
+2024-04-22 18:12:26,248 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 18:12:26,250 - 127.0.0.1 - - [22/Apr/2024 18:12:26] "POST /detect HTTP/1.1" 200 -
+2024-04-22 18:12:26,715 - 127.0.0.1 - - [22/Apr/2024 18:12:26] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:12:33,683 - 127.0.0.1 - - [22/Apr/2024 18:12:33] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+2024-04-22 18:12:34,582 - 127.0.0.1 - - [22/Apr/2024 18:12:34] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:12:38,893 - 127.0.0.1 - - [22/Apr/2024 18:12:38] "GET / HTTP/1.1" 200 -
+2024-04-22 18:12:38,926 - 127.0.0.1 - - [22/Apr/2024 18:12:38] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 18:12:39,808 - 127.0.0.1 - - [22/Apr/2024 18:12:39] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:12:54,263 - 127.0.0.1 - - [22/Apr/2024 18:12:54] "GET / HTTP/1.1" 200 -
+2024-04-22 18:12:54,304 - 127.0.0.1 - - [22/Apr/2024 18:12:54] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 18:12:55,200 - 127.0.0.1 - - [22/Apr/2024 18:12:55] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:20:19,105 - 127.0.0.1 - - [22/Apr/2024 18:20:19] "GET / HTTP/1.1" 200 -
+2024-04-22 18:20:19,195 - 127.0.0.1 - - [22/Apr/2024 18:20:19] "GET /static/images/Tunisie-Telecom.jpg HTTP/1.1" 200 -
+2024-04-22 18:20:19,198 - 127.0.0.1 - - [22/Apr/2024 18:20:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-22 18:20:20,426 - 127.0.0.1 - - [22/Apr/2024 18:20:20] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:21:13,408 - 127.0.0.1 - - [22/Apr/2024 18:21:13] "GET / HTTP/1.1" 200 -
+2024-04-22 18:21:13,446 - 127.0.0.1 - - [22/Apr/2024 18:21:13] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 18:21:13,447 - 127.0.0.1 - - [22/Apr/2024 18:21:13] "[36mGET /static/images/Tunisie-Telecom.jpg HTTP/1.1[0m" 304 -
+2024-04-22 18:21:14,388 - 127.0.0.1 - - [22/Apr/2024 18:21:14] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:22:25,393 - Starting packet capture...
+2024-04-22 18:22:32,303 - Starting packet capture...
+2024-04-22 18:22:34,628 - 10 packets captured.
+2024-04-22 18:22:34,628 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 18:22:34,629 - 127.0.0.1 - - [22/Apr/2024 18:22:34] "POST /detect HTTP/1.1" 200 -
+2024-04-22 18:22:35,613 - 127.0.0.1 - - [22/Apr/2024 18:22:35] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:22:49,301 - 100 packets captured.
+2024-04-22 18:22:49,301 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 18:22:49,304 - 127.0.0.1 - - [22/Apr/2024 18:22:49] "POST /detect HTTP/1.1" 200 -
+2024-04-22 18:28:04,342 - 127.0.0.1 - - [22/Apr/2024 18:28:04] "GET / HTTP/1.1" 200 -
+2024-04-22 18:28:04,440 - 127.0.0.1 - - [22/Apr/2024 18:28:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-22 18:28:04,441 - 127.0.0.1 - - [22/Apr/2024 18:28:04] "GET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1" 200 -
+2024-04-22 18:28:05,645 - 127.0.0.1 - - [22/Apr/2024 18:28:05] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:31:22,632 - 127.0.0.1 - - [22/Apr/2024 18:31:22] "GET / HTTP/1.1" 200 -
+2024-04-22 18:31:22,675 - 127.0.0.1 - - [22/Apr/2024 18:31:22] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 18:31:22,676 - 127.0.0.1 - - [22/Apr/2024 18:31:22] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 18:31:23,627 - 127.0.0.1 - - [22/Apr/2024 18:31:23] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:38:33,500 - 127.0.0.1 - - [22/Apr/2024 18:38:33] "GET / HTTP/1.1" 200 -
+2024-04-22 18:38:33,594 - 127.0.0.1 - - [22/Apr/2024 18:38:33] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 18:38:33,599 - 127.0.0.1 - - [22/Apr/2024 18:38:33] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 18:38:34,782 - 127.0.0.1 - - [22/Apr/2024 18:38:34] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:38:54,774 - 127.0.0.1 - - [22/Apr/2024 18:38:54] "GET / HTTP/1.1" 200 -
+2024-04-22 18:38:54,815 - 127.0.0.1 - - [22/Apr/2024 18:38:54] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 18:38:54,816 - 127.0.0.1 - - [22/Apr/2024 18:38:54] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 18:38:55,713 - 127.0.0.1 - - [22/Apr/2024 18:38:55] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:39:13,705 - 127.0.0.1 - - [22/Apr/2024 18:39:13] "GET / HTTP/1.1" 200 -
+2024-04-22 18:39:13,741 - 127.0.0.1 - - [22/Apr/2024 18:39:13] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 18:39:13,746 - 127.0.0.1 - - [22/Apr/2024 18:39:13] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 18:39:14,674 - 127.0.0.1 - - [22/Apr/2024 18:39:14] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:39:27,157 - Starting packet capture...
+2024-04-22 18:39:33,120 - 10 packets captured.
+2024-04-22 18:39:33,120 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 18:39:33,121 - 127.0.0.1 - - [22/Apr/2024 18:39:33] "POST /detect HTTP/1.1" 200 -
+2024-04-22 18:39:34,041 - 127.0.0.1 - - [22/Apr/2024 18:39:34] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:39:46,643 - Starting packet capture...
+2024-04-22 18:39:54,804 - 10 packets captured.
+2024-04-22 18:39:54,804 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 18:39:54,805 - 127.0.0.1 - - [22/Apr/2024 18:39:54] "POST /detect HTTP/1.1" 200 -
+2024-04-22 18:39:55,747 - 127.0.0.1 - - [22/Apr/2024 18:39:55] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:40:32,703 - 127.0.0.1 - - [22/Apr/2024 18:40:32] "GET / HTTP/1.1" 200 -
+2024-04-22 18:40:32,741 - 127.0.0.1 - - [22/Apr/2024 18:40:32] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 18:40:32,743 - 127.0.0.1 - - [22/Apr/2024 18:40:32] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 18:40:33,660 - 127.0.0.1 - - [22/Apr/2024 18:40:33] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:42:11,579 - 127.0.0.1 - - [22/Apr/2024 18:42:11] "GET / HTTP/1.1" 200 -
+2024-04-22 18:42:11,619 - 127.0.0.1 - - [22/Apr/2024 18:42:11] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 18:42:11,621 - 127.0.0.1 - - [22/Apr/2024 18:42:11] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 18:42:12,577 - 127.0.0.1 - - [22/Apr/2024 18:42:12] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:42:48,380 - 127.0.0.1 - - [22/Apr/2024 18:42:48] "GET / HTTP/1.1" 200 -
+2024-04-22 18:42:48,419 - 127.0.0.1 - - [22/Apr/2024 18:42:48] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 18:42:48,422 - 127.0.0.1 - - [22/Apr/2024 18:42:48] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 18:42:49,365 - 127.0.0.1 - - [22/Apr/2024 18:42:49] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:43:36,116 - 127.0.0.1 - - [22/Apr/2024 18:43:36] "GET / HTTP/1.1" 200 -
+2024-04-22 18:43:36,160 - 127.0.0.1 - - [22/Apr/2024 18:43:36] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 18:43:36,161 - 127.0.0.1 - - [22/Apr/2024 18:43:36] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 18:43:37,255 - 127.0.0.1 - - [22/Apr/2024 18:43:37] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:43:54,907 - 127.0.0.1 - - [22/Apr/2024 18:43:54] "GET / HTTP/1.1" 200 -
+2024-04-22 18:43:54,946 - 127.0.0.1 - - [22/Apr/2024 18:43:54] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 18:43:54,947 - 127.0.0.1 - - [22/Apr/2024 18:43:54] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 18:43:55,795 - 127.0.0.1 - - [22/Apr/2024 18:43:55] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:44:07,661 - 127.0.0.1 - - [22/Apr/2024 18:44:07] "GET / HTTP/1.1" 200 -
+2024-04-22 18:44:07,697 - 127.0.0.1 - - [22/Apr/2024 18:44:07] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 18:44:07,698 - 127.0.0.1 - - [22/Apr/2024 18:44:07] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 18:44:08,591 - 127.0.0.1 - - [22/Apr/2024 18:44:08] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:44:22,513 - 127.0.0.1 - - [22/Apr/2024 18:44:22] "GET / HTTP/1.1" 200 -
+2024-04-22 18:44:22,555 - 127.0.0.1 - - [22/Apr/2024 18:44:22] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 18:44:22,555 - 127.0.0.1 - - [22/Apr/2024 18:44:22] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 18:44:23,422 - 127.0.0.1 - - [22/Apr/2024 18:44:23] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:46:24,035 - 127.0.0.1 - - [22/Apr/2024 18:46:24] "GET / HTTP/1.1" 200 -
+2024-04-22 18:46:24,085 - 127.0.0.1 - - [22/Apr/2024 18:46:24] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 18:46:24,086 - 127.0.0.1 - - [22/Apr/2024 18:46:24] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 18:46:25,018 - 127.0.0.1 - - [22/Apr/2024 18:46:25] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:46:39,432 - 127.0.0.1 - - [22/Apr/2024 18:46:39] "GET / HTTP/1.1" 200 -
+2024-04-22 18:46:39,472 - 127.0.0.1 - - [22/Apr/2024 18:46:39] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 18:46:39,474 - 127.0.0.1 - - [22/Apr/2024 18:46:39] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 18:46:40,356 - 127.0.0.1 - - [22/Apr/2024 18:46:40] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:46:45,080 - Starting packet capture...
+2024-04-22 18:46:50,288 - 10 packets captured.
+2024-04-22 18:46:50,288 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 18:46:50,289 - 127.0.0.1 - - [22/Apr/2024 18:46:50] "POST /detect HTTP/1.1" 200 -
+2024-04-22 18:46:51,215 - 127.0.0.1 - - [22/Apr/2024 18:46:51] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:53:02,920 - Starting packet capture...
+2024-04-22 18:53:04,368 - 10 packets captured.
+2024-04-22 18:53:04,368 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 18:53:04,373 - 127.0.0.1 - - [22/Apr/2024 18:53:04] "POST /detect HTTP/1.1" 200 -
+2024-04-22 18:53:04,470 - 127.0.0.1 - - [22/Apr/2024 18:53:04] "[33mGET /static/style_1.css HTTP/1.1[0m" 404 -
+2024-04-22 18:53:05,689 - 127.0.0.1 - - [22/Apr/2024 18:53:05] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:53:12,137 - 127.0.0.1 - - [22/Apr/2024 18:53:12] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:54:09,032 - 127.0.0.1 - - [22/Apr/2024 18:54:09] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:54:11,385 - Starting packet capture...
+2024-04-22 18:54:13,508 - 10 packets captured.
+2024-04-22 18:54:13,508 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 18:54:13,509 - 127.0.0.1 - - [22/Apr/2024 18:54:13] "POST /detect HTTP/1.1" 200 -
+2024-04-22 18:54:13,544 - 127.0.0.1 - - [22/Apr/2024 18:54:13] "GET /static/style_1.css HTTP/1.1" 200 -
+2024-04-22 18:54:14,445 - 127.0.0.1 - - [22/Apr/2024 18:54:14] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:54:18,204 - Starting packet capture...
+2024-04-22 18:54:20,860 - 10 packets captured.
+2024-04-22 18:54:20,860 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 18:54:20,861 - 127.0.0.1 - - [22/Apr/2024 18:54:20] "POST /detect HTTP/1.1" 200 -
+2024-04-22 18:54:20,899 - 127.0.0.1 - - [22/Apr/2024 18:54:20] "[36mGET /static/style_1.css HTTP/1.1[0m" 304 -
+2024-04-22 18:54:21,793 - 127.0.0.1 - - [22/Apr/2024 18:54:21] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:55:32,987 - Starting packet capture...
+2024-04-22 18:55:35,100 - 10 packets captured.
+2024-04-22 18:55:35,100 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 18:55:35,105 - 127.0.0.1 - - [22/Apr/2024 18:55:35] "POST /detect HTTP/1.1" 200 -
+2024-04-22 18:55:35,139 - 127.0.0.1 - - [22/Apr/2024 18:55:35] "[36mGET /static/style_1.css HTTP/1.1[0m" 304 -
+2024-04-22 18:55:35,142 - 127.0.0.1 - - [22/Apr/2024 18:55:35] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 18:55:36,062 - 127.0.0.1 - - [22/Apr/2024 18:55:36] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:57:06,027 - Starting packet capture...
+2024-04-22 18:57:08,200 - 10 packets captured.
+2024-04-22 18:57:08,200 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 18:57:08,201 - 127.0.0.1 - - [22/Apr/2024 18:57:08] "POST /detect HTTP/1.1" 200 -
+2024-04-22 18:57:08,239 - 127.0.0.1 - - [22/Apr/2024 18:57:08] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 18:57:08,240 - 127.0.0.1 - - [22/Apr/2024 18:57:08] "[36mGET /static/style_1.css HTTP/1.1[0m" 304 -
+2024-04-22 18:57:09,168 - 127.0.0.1 - - [22/Apr/2024 18:57:09] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:59:14,481 - Starting packet capture...
+2024-04-22 18:59:16,040 - 10 packets captured.
+2024-04-22 18:59:16,040 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 18:59:16,041 - 127.0.0.1 - - [22/Apr/2024 18:59:16] "POST /detect HTTP/1.1" 200 -
+2024-04-22 18:59:16,083 - 127.0.0.1 - - [22/Apr/2024 18:59:16] "GET /static/style_1.css HTTP/1.1" 200 -
+2024-04-22 18:59:16,085 - 127.0.0.1 - - [22/Apr/2024 18:59:16] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 18:59:17,015 - 127.0.0.1 - - [22/Apr/2024 18:59:17] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:59:23,287 - 127.0.0.1 - - [22/Apr/2024 18:59:23] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+2024-04-22 18:59:24,199 - 127.0.0.1 - - [22/Apr/2024 18:59:24] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:59:25,561 - 127.0.0.1 - - [22/Apr/2024 18:59:25] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+2024-04-22 18:59:26,400 - 127.0.0.1 - - [22/Apr/2024 18:59:26] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:59:28,393 - 127.0.0.1 - - [22/Apr/2024 18:59:28] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:59:37,640 - Starting packet capture...
+2024-04-22 18:59:38,872 - 10 packets captured.
+2024-04-22 18:59:38,872 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 18:59:38,873 - 127.0.0.1 - - [22/Apr/2024 18:59:38] "POST /detect HTTP/1.1" 200 -
+2024-04-22 18:59:38,916 - 127.0.0.1 - - [22/Apr/2024 18:59:38] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 18:59:38,917 - 127.0.0.1 - - [22/Apr/2024 18:59:38] "[36mGET /static/style_1.css HTTP/1.1[0m" 304 -
+2024-04-22 18:59:39,896 - 127.0.0.1 - - [22/Apr/2024 18:59:39] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:59:47,076 - Starting packet capture...
+2024-04-22 18:59:49,456 - 10 packets captured.
+2024-04-22 18:59:49,456 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 18:59:49,457 - 127.0.0.1 - - [22/Apr/2024 18:59:49] "POST /detect HTTP/1.1" 200 -
+2024-04-22 18:59:49,500 - 127.0.0.1 - - [22/Apr/2024 18:59:49] "[36mGET /static/style_1.css HTTP/1.1[0m" 304 -
+2024-04-22 18:59:49,503 - 127.0.0.1 - - [22/Apr/2024 18:59:49] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 18:59:50,366 - 127.0.0.1 - - [22/Apr/2024 18:59:50] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 18:59:55,989 - Starting packet capture...
+2024-04-22 18:59:58,744 - 10 packets captured.
+2024-04-22 18:59:58,744 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 18:59:58,745 - 127.0.0.1 - - [22/Apr/2024 18:59:58] "POST /detect HTTP/1.1" 200 -
+2024-04-22 18:59:58,792 - 127.0.0.1 - - [22/Apr/2024 18:59:58] "[36mGET /static/style_1.css HTTP/1.1[0m" 304 -
+2024-04-22 18:59:58,794 - 127.0.0.1 - - [22/Apr/2024 18:59:58] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 18:59:59,658 - 127.0.0.1 - - [22/Apr/2024 18:59:59] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:00:11,859 - 127.0.0.1 - - [22/Apr/2024 19:00:11] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:01:17,577 - Starting packet capture...
+2024-04-22 19:01:19,268 - 10 packets captured.
+2024-04-22 19:01:19,268 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 19:01:19,269 - 127.0.0.1 - - [22/Apr/2024 19:01:19] "POST /detect HTTP/1.1" 200 -
+2024-04-22 19:01:19,309 - 127.0.0.1 - - [22/Apr/2024 19:01:19] "GET /static/style_1.css HTTP/1.1" 200 -
+2024-04-22 19:01:19,319 - 127.0.0.1 - - [22/Apr/2024 19:01:19] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:01:24,548 - 127.0.0.1 - - [22/Apr/2024 19:01:24] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:02:06,581 - 127.0.0.1 - - [22/Apr/2024 19:02:06] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:02:11,647 - 127.0.0.1 - - [22/Apr/2024 19:02:11] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:02:27,740 - 127.0.0.1 - - [22/Apr/2024 19:02:27] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:05:19,320 - Starting packet capture...
+2024-04-22 19:05:21,580 - 10 packets captured.
+2024-04-22 19:05:21,580 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 19:05:21,581 - 127.0.0.1 - - [22/Apr/2024 19:05:21] "POST /detect HTTP/1.1" 200 -
+2024-04-22 19:05:21,670 - 127.0.0.1 - - [22/Apr/2024 19:05:21] "GET /static/style_1.css HTTP/1.1" 200 -
+2024-04-22 19:05:21,675 - 127.0.0.1 - - [22/Apr/2024 19:05:21] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:05:22,768 - 127.0.0.1 - - [22/Apr/2024 19:05:22] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:05:56,413 - Starting packet capture...
+2024-04-22 19:05:59,936 - 10 packets captured.
+2024-04-22 19:05:59,936 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 19:05:59,937 - 127.0.0.1 - - [22/Apr/2024 19:05:59] "POST /detect HTTP/1.1" 200 -
+2024-04-22 19:05:59,978 - 127.0.0.1 - - [22/Apr/2024 19:05:59] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:05:59,979 - 127.0.0.1 - - [22/Apr/2024 19:05:59] "GET /static/style_1.css HTTP/1.1" 200 -
+2024-04-22 19:06:00,865 - 127.0.0.1 - - [22/Apr/2024 19:06:00] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:06:32,355 - Starting packet capture...
+2024-04-22 19:06:36,336 - 10 packets captured.
+2024-04-22 19:06:36,336 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 19:06:36,337 - 127.0.0.1 - - [22/Apr/2024 19:06:36] "POST /detect HTTP/1.1" 200 -
+2024-04-22 19:06:36,370 - 127.0.0.1 - - [22/Apr/2024 19:06:36] "GET /static/style_1.css HTTP/1.1" 200 -
+2024-04-22 19:06:36,371 - 127.0.0.1 - - [22/Apr/2024 19:06:36] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:06:37,246 - 127.0.0.1 - - [22/Apr/2024 19:06:37] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:06:59,309 - 127.0.0.1 - - [22/Apr/2024 19:06:59] "[31m[1mGET /detect HTTP/1.1[0m" 405 -
+2024-04-22 19:07:00,177 - 127.0.0.1 - - [22/Apr/2024 19:07:00] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:07:04,693 - 127.0.0.1 - - [22/Apr/2024 19:07:04] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:07:05,803 - Starting packet capture...
+2024-04-22 19:07:07,100 - 10 packets captured.
+2024-04-22 19:07:07,100 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 19:07:07,101 - 127.0.0.1 - - [22/Apr/2024 19:07:07] "POST /detect HTTP/1.1" 200 -
+2024-04-22 19:07:07,142 - 127.0.0.1 - - [22/Apr/2024 19:07:07] "GET /static/style_1.css HTTP/1.1" 200 -
+2024-04-22 19:07:07,142 - 127.0.0.1 - - [22/Apr/2024 19:07:07] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:07:07,936 - 127.0.0.1 - - [22/Apr/2024 19:07:07] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:07:57,951 - 127.0.0.1 - - [22/Apr/2024 19:07:57] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:08:21,430 - 127.0.0.1 - - [22/Apr/2024 19:08:21] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:08:54,919 - 127.0.0.1 - - [22/Apr/2024 19:08:54] "GET / HTTP/1.1" 200 -
+2024-04-22 19:08:54,961 - 127.0.0.1 - - [22/Apr/2024 19:08:54] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:08:54,961 - 127.0.0.1 - - [22/Apr/2024 19:08:54] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 19:08:55,919 - 127.0.0.1 - - [22/Apr/2024 19:08:55] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:09:12,872 - 127.0.0.1 - - [22/Apr/2024 19:09:12] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:09:34,985 - 127.0.0.1 - - [22/Apr/2024 19:09:34] "GET / HTTP/1.1" 200 -
+2024-04-22 19:09:35,022 - 127.0.0.1 - - [22/Apr/2024 19:09:35] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 19:09:35,024 - 127.0.0.1 - - [22/Apr/2024 19:09:35] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:09:35,958 - 127.0.0.1 - - [22/Apr/2024 19:09:35] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:10:03,127 - 127.0.0.1 - - [22/Apr/2024 19:10:03] "GET / HTTP/1.1" 200 -
+2024-04-22 19:10:03,177 - 127.0.0.1 - - [22/Apr/2024 19:10:03] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:10:03,180 - 127.0.0.1 - - [22/Apr/2024 19:10:03] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 19:10:04,114 - 127.0.0.1 - - [22/Apr/2024 19:10:04] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:10:10,297 - Starting packet capture...
+2024-04-22 19:10:20,284 - 100 packets captured.
+2024-04-22 19:10:20,284 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 19:10:20,287 - 127.0.0.1 - - [22/Apr/2024 19:10:20] "POST /detect HTTP/1.1" 200 -
+2024-04-22 19:10:20,358 - 127.0.0.1 - - [22/Apr/2024 19:10:20] "[36mGET /static/style_1.css HTTP/1.1[0m" 304 -
+2024-04-22 19:10:20,360 - 127.0.0.1 - - [22/Apr/2024 19:10:20] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:10:21,278 - 127.0.0.1 - - [22/Apr/2024 19:10:21] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:10:37,559 - 127.0.0.1 - - [22/Apr/2024 19:10:37] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:11:10,597 - Starting packet capture...
+2024-04-22 19:11:20,800 - 100 packets captured.
+2024-04-22 19:11:20,801 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 19:11:20,804 - 127.0.0.1 - - [22/Apr/2024 19:11:20] "POST /detect HTTP/1.1" 200 -
+2024-04-22 19:11:20,868 - 127.0.0.1 - - [22/Apr/2024 19:11:20] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:11:20,872 - 127.0.0.1 - - [22/Apr/2024 19:11:20] "GET /static/style_1.css HTTP/1.1" 200 -
+2024-04-22 19:11:27,071 - 127.0.0.1 - - [22/Apr/2024 19:11:27] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:12:04,038 - Starting packet capture...
+2024-04-22 19:12:04,184 - 10 packets captured.
+2024-04-22 19:12:04,184 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 19:12:04,186 - 127.0.0.1 - - [22/Apr/2024 19:12:04] "POST /detect HTTP/1.1" 200 -
+2024-04-22 19:12:04,263 - 127.0.0.1 - - [22/Apr/2024 19:12:04] "[36mGET /static/style_1.css HTTP/1.1[0m" 304 -
+2024-04-22 19:12:04,266 - 127.0.0.1 - - [22/Apr/2024 19:12:04] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:12:06,359 - 127.0.0.1 - - [22/Apr/2024 19:12:06] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:13:26,477 - 127.0.0.1 - - [22/Apr/2024 19:13:26] "GET / HTTP/1.1" 200 -
+2024-04-22 19:13:26,515 - 127.0.0.1 - - [22/Apr/2024 19:13:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-22 19:13:26,518 - 127.0.0.1 - - [22/Apr/2024 19:13:26] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:13:27,696 - 127.0.0.1 - - [22/Apr/2024 19:13:27] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:13:30,792 - Starting packet capture...
+2024-04-22 19:13:31,224 - 10 packets captured.
+2024-04-22 19:13:31,224 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 19:13:31,225 - 127.0.0.1 - - [22/Apr/2024 19:13:31] "POST /detect HTTP/1.1" 200 -
+2024-04-22 19:13:31,274 - 127.0.0.1 - - [22/Apr/2024 19:13:31] "GET /static/style_1.css HTTP/1.1" 200 -
+2024-04-22 19:13:31,274 - 127.0.0.1 - - [22/Apr/2024 19:13:31] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:13:32,112 - 127.0.0.1 - - [22/Apr/2024 19:13:32] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:14:07,201 - 127.0.0.1 - - [22/Apr/2024 19:14:07] "GET / HTTP/1.1" 200 -
+2024-04-22 19:14:07,238 - 127.0.0.1 - - [22/Apr/2024 19:14:07] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 19:14:07,240 - 127.0.0.1 - - [22/Apr/2024 19:14:07] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:14:08,139 - 127.0.0.1 - - [22/Apr/2024 19:14:08] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:14:17,841 - Starting packet capture...
+2024-04-22 19:14:20,140 - 10 packets captured.
+2024-04-22 19:14:20,140 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 19:14:20,141 - 127.0.0.1 - - [22/Apr/2024 19:14:20] "POST /detect HTTP/1.1" 200 -
+2024-04-22 19:14:20,183 - 127.0.0.1 - - [22/Apr/2024 19:14:20] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:14:20,185 - 127.0.0.1 - - [22/Apr/2024 19:14:20] "[36mGET /static/style_1.css HTTP/1.1[0m" 304 -
+2024-04-22 19:14:21,021 - 127.0.0.1 - - [22/Apr/2024 19:14:21] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:14:43,690 - Starting packet capture...
+2024-04-22 19:14:45,900 - 10 packets captured.
+2024-04-22 19:14:45,900 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 19:14:45,901 - 127.0.0.1 - - [22/Apr/2024 19:14:45] "POST /detect HTTP/1.1" 200 -
+2024-04-22 19:14:45,941 - 127.0.0.1 - - [22/Apr/2024 19:14:45] "[36mGET /static/style_1.css HTTP/1.1[0m" 304 -
+2024-04-22 19:14:45,943 - 127.0.0.1 - - [22/Apr/2024 19:14:45] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:14:46,823 - 127.0.0.1 - - [22/Apr/2024 19:14:46] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:16:02,184 - 127.0.0.1 - - [22/Apr/2024 19:16:02] "GET / HTTP/1.1" 200 -
+2024-04-22 19:16:02,223 - 127.0.0.1 - - [22/Apr/2024 19:16:02] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:16:02,223 - 127.0.0.1 - - [22/Apr/2024 19:16:02] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 19:16:03,267 - 127.0.0.1 - - [22/Apr/2024 19:16:03] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:16:55,765 - 127.0.0.1 - - [22/Apr/2024 19:16:55] "GET / HTTP/1.1" 200 -
+2024-04-22 19:16:55,803 - 127.0.0.1 - - [22/Apr/2024 19:16:55] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 19:16:55,804 - 127.0.0.1 - - [22/Apr/2024 19:16:55] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:16:56,737 - 127.0.0.1 - - [22/Apr/2024 19:16:56] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:17:30,365 - 127.0.0.1 - - [22/Apr/2024 19:17:30] "GET / HTTP/1.1" 200 -
+2024-04-22 19:17:30,408 - 127.0.0.1 - - [22/Apr/2024 19:17:30] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 19:17:30,409 - 127.0.0.1 - - [22/Apr/2024 19:17:30] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:17:31,454 - 127.0.0.1 - - [22/Apr/2024 19:17:31] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:17:52,882 - 127.0.0.1 - - [22/Apr/2024 19:17:52] "GET / HTTP/1.1" 200 -
+2024-04-22 19:17:52,922 - 127.0.0.1 - - [22/Apr/2024 19:17:52] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 19:17:52,924 - 127.0.0.1 - - [22/Apr/2024 19:17:52] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:17:53,797 - 127.0.0.1 - - [22/Apr/2024 19:17:53] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:18:12,405 - 127.0.0.1 - - [22/Apr/2024 19:18:12] "GET / HTTP/1.1" 200 -
+2024-04-22 19:18:12,440 - 127.0.0.1 - - [22/Apr/2024 19:18:12] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 19:18:12,443 - 127.0.0.1 - - [22/Apr/2024 19:18:12] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:18:13,408 - 127.0.0.1 - - [22/Apr/2024 19:18:13] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:18:57,753 - 127.0.0.1 - - [22/Apr/2024 19:18:57] "GET / HTTP/1.1" 200 -
+2024-04-22 19:18:57,798 - 127.0.0.1 - - [22/Apr/2024 19:18:57] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:18:57,799 - 127.0.0.1 - - [22/Apr/2024 19:18:57] "GET /static/style.css HTTP/1.1" 200 -
+2024-04-22 19:18:58,767 - 127.0.0.1 - - [22/Apr/2024 19:18:58] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:19:06,744 - Starting packet capture...
+2024-04-22 19:19:11,996 - 100 packets captured.
+2024-04-22 19:19:11,996 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 19:19:11,999 - 127.0.0.1 - - [22/Apr/2024 19:19:11] "POST /detect HTTP/1.1" 200 -
+2024-04-22 19:19:12,046 - 127.0.0.1 - - [22/Apr/2024 19:19:12] "[36mGET /static/style_1.css HTTP/1.1[0m" 304 -
+2024-04-22 19:19:12,049 - 127.0.0.1 - - [22/Apr/2024 19:19:12] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:19:13,071 - 127.0.0.1 - - [22/Apr/2024 19:19:13] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:20:19,373 - 127.0.0.1 - - [22/Apr/2024 19:20:19] "GET / HTTP/1.1" 200 -
+2024-04-22 19:20:19,418 - 127.0.0.1 - - [22/Apr/2024 19:20:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-04-22 19:20:19,419 - 127.0.0.1 - - [22/Apr/2024 19:20:19] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:20:20,379 - 127.0.0.1 - - [22/Apr/2024 19:20:20] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:20:23,545 - Starting packet capture...
+2024-04-22 19:20:25,928 - 10 packets captured.
+2024-04-22 19:20:25,928 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 19:20:25,929 - 127.0.0.1 - - [22/Apr/2024 19:20:25] "POST /detect HTTP/1.1" 200 -
+2024-04-22 19:20:25,971 - 127.0.0.1 - - [22/Apr/2024 19:20:25] "GET /static/style_1.css HTTP/1.1" 200 -
+2024-04-22 19:20:25,976 - 127.0.0.1 - - [22/Apr/2024 19:20:25] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:20:26,836 - 127.0.0.1 - - [22/Apr/2024 19:20:26] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:22:14,127 - Starting packet capture...
+2024-04-22 19:22:17,084 - 10 packets captured.
+2024-04-22 19:22:17,084 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 19:22:17,085 - 127.0.0.1 - - [22/Apr/2024 19:22:17] "POST /detect HTTP/1.1" 200 -
+2024-04-22 19:22:17,129 - 127.0.0.1 - - [22/Apr/2024 19:22:17] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:22:17,132 - 127.0.0.1 - - [22/Apr/2024 19:22:17] "GET /static/style_1.css HTTP/1.1" 200 -
+2024-04-22 19:22:18,074 - 127.0.0.1 - - [22/Apr/2024 19:22:18] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:22:25,105 - Starting packet capture...
+2024-04-22 19:22:27,980 - 10 packets captured.
+2024-04-22 19:22:27,980 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 19:22:27,981 - 127.0.0.1 - - [22/Apr/2024 19:22:27] "POST /detect HTTP/1.1" 200 -
+2024-04-22 19:22:28,029 - 127.0.0.1 - - [22/Apr/2024 19:22:28] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:22:28,030 - 127.0.0.1 - - [22/Apr/2024 19:22:28] "[36mGET /static/style_1.css HTTP/1.1[0m" 304 -
+2024-04-22 19:22:28,928 - 127.0.0.1 - - [22/Apr/2024 19:22:28] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:23:02,523 - Starting packet capture...
+2024-04-22 19:23:02,612 - 10 packets captured.
+2024-04-22 19:23:02,612 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 19:23:02,613 - 127.0.0.1 - - [22/Apr/2024 19:23:02] "POST /detect HTTP/1.1" 200 -
+2024-04-22 19:23:02,653 - 127.0.0.1 - - [22/Apr/2024 19:23:02] "GET /static/style_1.css HTTP/1.1" 200 -
+2024-04-22 19:23:02,654 - 127.0.0.1 - - [22/Apr/2024 19:23:02] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:23:03,627 - 127.0.0.1 - - [22/Apr/2024 19:23:03] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:23:36,388 - Starting packet capture...
+2024-04-22 19:23:38,848 - 10 packets captured.
+2024-04-22 19:23:38,848 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 19:23:38,849 - 127.0.0.1 - - [22/Apr/2024 19:23:38] "POST /detect HTTP/1.1" 200 -
+2024-04-22 19:23:38,889 - 127.0.0.1 - - [22/Apr/2024 19:23:38] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:23:38,889 - 127.0.0.1 - - [22/Apr/2024 19:23:38] "GET /static/style_1.css HTTP/1.1" 200 -
+2024-04-22 19:23:39,827 - 127.0.0.1 - - [22/Apr/2024 19:23:39] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:24:02,473 - Starting packet capture...
+2024-04-22 19:24:02,548 - 10 packets captured.
+2024-04-22 19:24:02,548 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 19:24:02,550 - 127.0.0.1 - - [22/Apr/2024 19:24:02] "POST /detect HTTP/1.1" 200 -
+2024-04-22 19:24:02,602 - 127.0.0.1 - - [22/Apr/2024 19:24:02] "GET /static/style_1.css HTTP/1.1" 200 -
+2024-04-22 19:24:02,603 - 127.0.0.1 - - [22/Apr/2024 19:24:02] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:24:03,745 - 127.0.0.1 - - [22/Apr/2024 19:24:03] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 19:25:32,893 - Starting packet capture...
+2024-04-22 19:25:33,008 - 10 packets captured.
+2024-04-22 19:25:33,008 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 19:25:33,010 - 127.0.0.1 - - [22/Apr/2024 19:25:33] "POST /detect HTTP/1.1" 200 -
+2024-04-22 19:25:33,084 - 127.0.0.1 - - [22/Apr/2024 19:25:33] "[36mGET /static/style_1.css HTTP/1.1[0m" 304 -
+2024-04-22 19:25:33,088 - 127.0.0.1 - - [22/Apr/2024 19:25:33] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 19:25:34,626 - 127.0.0.1 - - [22/Apr/2024 19:25:34] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 20:16:56,127 -  * Detected change in '/home/root_/wifi_dos_detector/app.py', reloading
+2024-04-22 20:16:56,394 -  * Restarting with stat
+2024-04-22 20:53:07,975 -  * Debugger is active!
+2024-04-22 20:53:07,976 -  * Debugger PIN: 507-012-351
+2024-04-22 20:53:10,427 - Starting packet capture...
+2024-04-22 20:53:28,492 - 10 packets captured.
+2024-04-22 20:53:28,492 - Excessive traffic detected. Possible DoS attack.
+2024-04-22 20:53:28,501 - 127.0.0.1 - - [22/Apr/2024 20:53:28] "POST /detect HTTP/1.1" 200 -
+2024-04-22 20:53:28,561 - 127.0.0.1 - - [22/Apr/2024 20:53:28] "[36mGET /static/images/Tunisie-Telecom-removebg-preview.png HTTP/1.1[0m" 304 -
+2024-04-22 20:53:28,562 - 127.0.0.1 - - [22/Apr/2024 20:53:28] "[36mGET /static/style_1.css HTTP/1.1[0m" 304 -
+2024-04-22 20:53:29,410 - 127.0.0.1 - - [22/Apr/2024 20:53:29] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+2024-04-22 20:54:09,230 -  * Detected change in '/home/root_/wifi_dos_detector/app.py', reloading
+2024-05-04 19:44:41,820 - Starting packet capture...
+2024-05-04 19:45:28,920 - Starting packet capture...
+2024-05-04 19:45:30,949 - 100 packets captured.
+2024-05-04 19:45:30,949 - Excessive traffic detected. Possible DoS attack.
+2024-05-04 19:45:30,954 - {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x754f4759e560>", "operation": "insert", "operationId": 662429045, "topologyDescription": "<TopologyDescription id: 66368248d5bf92f693631389, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-r1oxl7z-shard-00-00.slvtjmo.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-r1oxl7z-shard-00-01.slvtjmo.mongodb.net', 27017) server_type: Unknown, rtt: None>, <ServerDescription ('ac-r1oxl7z-shard-00-02.slvtjmo.mongodb.net', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "66368248d5bf92f693631389"}, "remainingTimeMS": 29}
+2024-05-04 19:52:36,539 - Starting packet capture...
+2024-05-04 19:52:38,101 - 100 packets captured.
+2024-05-04 19:52:38,101 - Excessive traffic detected. Possible DoS attack.
+2024-05-04 19:54:31,142 - Starting packet capture...
+2024-05-04 19:54:32,809 - 100 packets captured.
+2024-05-04 19:54:32,809 - Excessive traffic detected. Possible DoS attack.
+2024-05-04 19:59:29,631 - Starting packet capture...
+2024-05-04 19:59:30,629 - 100 packets captured.
+2024-05-04 19:59:30,629 - Excessive traffic detected. Possible DoS attack.
+2024-05-05 11:58:57,094 - Starting packet capture...
+2024-05-05 11:58:58,175 - 100 packets captured.
+2024-05-05 11:58:58,175 - Excessive traffic detected. Possible DoS attack.
+2024-05-05 22:32:40,541 - Starting packet capture...
