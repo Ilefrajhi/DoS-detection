@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style-1.css') }}">
+    <title>device functionality</title>
+</head>
+<body>
+    <div class ="content">
+    <img src="/static/images/Tunisie-Telecom-removebg-preview.png" alt="Logo">   
+    <h1>device functionality</h1>
+    <div class ="device-func">
+        <form action="/ping" method="POST">
+            <label for="ip_address" >Enter IP Address:</label>
+            <br>
+            <input type="text" id="ip_address" name="ip_address">
+            <br>
+            <button type="submit">Check device</button>
+         </form>
+    </div>
+    <p>{{ message }}</p>
+    </div>
+</body>
+</html>

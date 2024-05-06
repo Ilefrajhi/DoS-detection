@@ -851,3 +851,9 @@
 2024-05-05 11:58:58,175 - 100 packets captured.
 2024-05-05 11:58:58,175 - Excessive traffic detected. Possible DoS attack.
 2024-05-05 22:32:40,541 - Starting packet capture...
+2024-05-05 23:56:38,114 - Starting packet capture...
+2024-05-05 23:56:46,548 - 100 packets captured.
+2024-05-05 23:56:46,548 - Excessive traffic detected. Possible DoS attack.
+2024-05-06 00:07:47,946 - Starting packet capture...
+2024-05-06 00:07:49,128 - 100 packets captured.
+2024-05-06 00:07:49,128 - Excessive traffic detected. Possible DoS attack.

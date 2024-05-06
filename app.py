@@ -11,6 +11,7 @@ from collections import defaultdict
 from datetime import datetime, timedelta
 from flask import Flask, request
 from flask import Flask, render_template, request, redirect, url_for
+import subprocess
 
 app = Flask(__name__)
 
@@ -24,6 +25,21 @@ def login():
         else:
             return redirect(url_for('index'))
     return render_template('login.html', error=error)
+
+@app.route('/result')
+def result():
+    # Any data you want to pass to the template can be provided here
+    return render_template('result.html')
+
+@app.route('/ping', methods=['POST'])
+def ping():
+    ip_address = request.form['ip_address']
+    result = subprocess.call(['ping', '-c', '3', ip_address])
+    if result == 0:
+        message = "Your device is functioning properly."
+    else:
+        message = "Your device is down."
+    return render_template('result.html', message=message)
 
 matplotlib.use('Agg')
 
@@ -162,4 +178,4 @@ def index():
     return render_template('index.html', source_ip_plot_data=source_ip_plot_data, dos_attack_plot_data=dos_attack_plot_data, dos_attack_percentage=dos_attack_percentage, most_occuring_ips_plot_data=most_occuring_ips_plot_data)
 
 if __name__ == '__main__':
-    app.run(port=5001)  # Change 5001 to your desired port number
+    app.run(port=5004)  # Change 5001 to your desired port number

@@ -1,16 +1,8 @@
 import scapy.all as scapy
 import time
 import logging
-import pymongo
 import csv
 
-# MongoDB Atlas connection
-client = pymongo.MongoClient("mongodb+srv://frida:itsalloufa@cluster0.slvtjmo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-db = client["ip_dos"]  # Replace with your database name
-collection = db["wifi_dos_data"]   # Collection to store data
-
-# Logging configuration
-logging.basicConfig(filename='wifi_dos.log', level=logging.INFO, format='%(asctime)s - %(message)s')
 
 def save_to_csv(data, filename):
     with open(filename, 'w', newline='') as file:
@@ -43,13 +35,8 @@ def detect_wifi_dos(target_ip="192.168.1.1", packet_count=100, threshold=0.9):
             print("[+] Source IPs maybe triggering the DoS attack:")
             print("\n".join(set(source_ips)))  # Display unique source IPs
             
-            # Save data to MongoDB
-            timestamp = time.time()
-            data_to_insert = [{"source_ip": ip, "timestamp": timestamp} for ip in set(source_ips)]
-            collection.insert_many(data_to_insert)
-            
             # Save data to CSV
-            save_to_csv(data_to_insert, "wifi_dos_data.csv")
+            save_to_csv(source_ips, "wifi_dos_data.csv")  # Passing source_ips to save_to_csv
         else:
             print("[+] No source IPs found.")
     else:
